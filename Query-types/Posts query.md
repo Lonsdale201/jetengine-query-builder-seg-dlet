@@ -12,5 +12,7 @@ A Query Builder jobb felső sarkában található egy kapcsoló Preview results,
 
 ### General
 Itt a legáltalánosabb beállításokat tudjuk megadni.
-> **Post type**
+
+**Post Type**
+
 > Itt tudod megadni hogy melyik poszt típusokból kerje le a posztokat. Megadhatsz egyet, többet, vagy üresne is hagyhatod ilyenkor minden elérhető típusból fog dolgozni.
