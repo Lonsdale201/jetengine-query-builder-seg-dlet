@@ -32,13 +32,27 @@ Itt tudsz meták alapján módosítani a lekéréseden
 
 Miután rákatitntottál az Add new gombra 5 opció jelenik meg:
 
-* **Field key/name** Ez a meta azonosítója.
-* **Compare** itt tudod az operátport megadni hozzá. Például hogy legyen egyenlő, kisebb, Exist(létezik), stb. Néhány speciálisabb operátor
+* **Field key/name** -- Ez a meta azonosítója.
+* **Compare** -- itt tudod az operátort megadni hozzá. Például hogy legyen egyenlő, kissebb, Exist(létezik), stb. Néhány speciálisabb operátor:
   -  Like: Részleges egyezés
   -  In The List: Több érték megadásából legalább egyel egyeznie kell. Ez az IN-nek felel meg.
   -  Regexp: reguláris kifezések. Hasznos bonyolultabb mint keresésekor. Például ha van egy egyedi mező ami tartalmazhat számot, vagy betűket akkor a RegEXP egy jó megoldás: ^[0-9]+[a-zA-Z]+$
-* **Value** Itt kell megadni az értéket amivel az egyezésnek kell történnie.
-* **Type** Itt azt határozzuk meg, hogy a tárolt adat amely összehasonlítását végezzük milyen formában van. A leggyakrabban a Char-t használjuk ami a stringet jelenti.
+* **Value** -- Itt kell megadni az értéket amivel az egyezésnek kell történnie.
+* **Type** -- Itt azt határozzuk meg, hogy a tárolt adat amely összehasonlítását végezzük milyen formában van. A leggyakrabban a Char-t használjuk ami a stringet jelenti.
 
 A **Field key/name** és a **Value** esetében is lehetőség van dinamikus értékeket és jetengine makrókat megadni.
+
+### Tax Query
+A Posztokat itt tudod különböző Taxonómiák alapján lekérni. 
+
+Miután rákatitntottál az Add new gombra 5 opció jelenik meg:
+
+* **Taxonomy** -- Itt tudod kiválasztani melyik Taxonómiából akarod lekérni a posztokat. (itt egyszerre csak egyet választhatsz ki)
+* **Field** -- Itt tudod kiválasztani hogy a Terms melyik értékből fogsz adatok megadni. Term ID, Name, Slug, Term Taxonomy ID
+* **Terms** -- Itt kell megadni az értékeket. Ha a Field mezőben a SLUG ot állítottad be, úgy a terms keresőbarát nevét kell megadnod, ha ID akkor az azonosító-t. Több érték esetében vesszővel válaszd el. Makrókat is használhatsz.
+* **Exclude Childre** -- Alapértelmezetten a child terms ben lévő poszotkat is visszaadja, de ha bekapcsolod, akkor mindig csak a parent terms eket fogja figyelembe enni.
+* **Compare operator** -- Itt tudod megadni hogy az összehasonlítási mi legyen, ha kizárni akarsz akkor a listából válaszd a **NOT IN** opciót.
+
+*Extra, ha több Taxonomyból is akarsz dolgozni, miután a másodikat is hozzáadod, alul megjelenik egy Relation opciót, ott tudod megadni hogy több taxonomy esetében mindegyik feltételnek megkell felenie, (AND), vagy valamelyiknek (OR)*
+
 
