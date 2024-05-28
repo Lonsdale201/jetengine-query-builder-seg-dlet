@@ -1,5 +1,6 @@
 # jetengine-query-builder-segédlet
 JetEngine Query Builder leírások, lekérdezések készítése
+<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/WordPress.svg" />
 
 ## Leírás
 
