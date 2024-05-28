@@ -24,5 +24,21 @@ Itt a legáltalánosabb beállításokat tudjuk megadni.
 
 * **Post Type** - Itt tudod megadni hogy melyik poszt típusokból kerje le a posztokat. Megadhatsz egyet, többet, vagy üresen is hagyhatod ilyenkor minden elérhető típusból fog dolgozni.
 * **Post Status** - A bejegyzés státusza. Szintén egy vagy többet is megadhatsz, de hagyhatod üresen, hogy az összesre érvényes legyen. Például lekérheted csak a publikus bejegyzéseket.
-* 
+* **Search keyword** - Csak azokat a bejegyzéseket adja vissza aminek címében (title) kivonatában (excpert), vagy tartalmában (Content) talál egyezést. Ha a beért szó elé - (kötőjelet tesztel) azokat kizárja.
+* **Order & Order By** - Itt alapértelmezett sorrendeket tudsz beállítani. Fontos hogy ha a Jetsmartfilter-ben használsz Sorting funkciót akkor ezek össze tudnak akadni!
+
+### Meta Query
+Itt tudsz meták alapján módosítani a lekéréseden
+
+Miután rákatitntottál az Add new gombra 5 opció jelenik meg:
+
+* **Field key/name** Ez a meta azonosítója.
+* **Compare** itt tudod az operátport megadni hozzá. Például hogy legyen egyenlő, kisebb, Exist(létezik), stb. Néhány speciálisabb operátor
+  -  Like: Részleges egyezés
+  -  In The List: Több érték megadásából legalább egyel egyeznie kell. Ez az IN-nek felel meg.
+  -  Regexp: reguláris kifezések. Hasznos bonyolultabb mint keresésekor. Például ha van egy egyedi mező ami tartalmazhat számot, vagy betűket akkor a RegEXP egy jó megoldás: ^[0-9]+[a-zA-Z]+$
+* **Value** Itt kell megadni az értéket amivel az egyezésnek kell történnie.
+* **Type** Itt azt határozzuk meg, hogy a tárolt adat amely összehasonlítását végezzük milyen formában van. A leggyakrabban a Char-t használjuk ami a stringet jelenti.
+
+A **Field key/name** és a **Value** esetében is lehetőség van dinamikus értékeket és jetengine makrókat megadni.
 
