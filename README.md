@@ -1,2 +1,2 @@
-# jetengine-query-builder-segédet
+# jetengine-query-builder-segédlet
 JetEngine Query Builder leírások, lekérdezések készítése
