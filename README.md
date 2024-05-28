@@ -11,5 +11,5 @@ A JetEngine egyik legfontosabb alapértelmezett modulja, aminek a segítségéve
 
 ## Lekérdezések
 
-A **Query** azaz **lekérdezés** arra jó, (univerzális értelemben, nem csak a Query Builder-re értendően), hogy paraméterek alapján vissza adj lekéréseket. Ez lehet post, bejegyzéek, cpt bejegyzések, vagy bármi más egyéb.
+A **Query** azaz **lekérdezés** arra jó, (univerzális értelemben, nem csak a Query Builder-re értendően), hogy paraméterek alapján vissza adj lekéréseket. Ez lehet post, bejegyzések(blog), cpt posztok, vagy bármi más egyéb.
 A JetEngine Query Builder arra ad lehetőséget, hogy ne natívan php-ba írjuk meg, hanem egy rugalmas felületen keresztül mi magunk tudjuk összekattingatni. Az eredményt többféle képpen felhasználhatod. Beállíthatod a JetEngine Listing Grid widgetbe, a Dynamic Table, vagy Chart moduljukba, de dinamikus címkébe eredményként is kiírhatod az eredményt, ami a szűrők hatására (ajax esetében is) változtatja az értéket. Egy korábbi újításnak köszönhetően egyes elementoros Widgetbe, továbbá a Crocoblock saját pluginjeibe is beépített már a Query Builder-t, így akár a JetTabs tabok, és accordion elemeibe a felépítést akár a Query Builder által is elkészítheted. De a JetFormbuilder-be és a jetSmartfilterbe is beépítették már. (Ezekről mind fogsz tudni olvasni itt)
