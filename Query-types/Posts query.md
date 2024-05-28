@@ -1,4 +1,4 @@
-# Query Builder - Post Query
+# Query Builder - Posts Query
 
 ## Általános leírás
 A lista első Query típusa a Posts Query. Ennek segítségével bármilyen poszt típusból kérhetsz le posztokat. Nem számít, hogy egyedi post, vagy alapértelmezett, az sem hogy a jetengine által van-e létrehozva vagy más bővítménnyel. A lekérdezési paramétereket (másnéven argumentumokr) különöző tabokba kategorizálták. Megnézzük azokat amik a legfontosabbak az általános használatra.
