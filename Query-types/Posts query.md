@@ -108,7 +108,7 @@ A lapozás a legtöbb query típus esetében elérhető. Itt tudod megadni hogy 
 ![image](https://github.com/Lonsdale201/jetengine-query-builder-segedlet/assets/23199033/34451a0f-4298-430a-86f0-cc65a10b80a8)
 
 ### Author
-Alap esetben a lekérésünk nem veszi figyelembe, hogy kitől származik a bejegyzés. Ha itt nem töltesz ki semmit, akkor a szerzőtől függetlenül meg fognak jelenni a bejegyzések. Ez az Author beállítási rész akkor hasznos, ha a felhasználónak saját profilja van, és ahol szeretnéd visszalistázni csak azokat a posztokat amiket ő töltött fel. A Leggyakrabban az **Author ID** opciót használjuk, és általáb macro-al, például a Queried User-el.
+Alap esetben a lekérésünk nem veszi figyelembe, hogy kitől származik a bejegyzés. Ha itt nem adsz meg semmit, akkor a szerzőtől függetlenül meg fognak jelenni a bejegyzések. Ez az Author beállítási rész akkor hasznos, ha a felhasználónak saját profilja van, és ahol szeretnéd visszalistázni csak azokat a posztokat amiket ő töltött fel. A Leggyakrabban az **Author ID** opciót használjuk, és általáb macro-al, például a Queried User ID-el.
 
 ![image](https://github.com/Lonsdale201/jetengine-query-builder-segedlet/assets/23199033/3fbe98ec-fecf-433e-a822-17bba5bc05d3)
 
