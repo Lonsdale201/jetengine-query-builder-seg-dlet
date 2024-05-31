@@ -2,7 +2,7 @@
 
 ### Leírás
 
-A Query Builder-ben létehozott lekéréseket különböző féle képpen felhasználhatod. Az elsődleges terület, amire a leggyakrabban használják az a Listing Grid-be való bekötés. Ugyanis a QB rendszer előtt, a Listing grid magad végezte a lekéréseket, ám ez a funkció megkapta a **Legacy** jelzést, 
+A Query Builder-ben létehozott lekéréseket különböző féle képpen felhasználhatod. Az elsődleges terület, amire a leggyakrabban használják az a Listing Grid-be való bekötés. Ugyanis a QB rendszer előtt, a Listing grid maga végezte a lekéréseket, ám ez a funkció megkapta a **Legacy** jelzést, 
 ami azt jelenti nem javasolt a használata. (Nem a Listing Grid, hanem a beépített lekérdezési rendszere). Ez helyett a QB végzi a lekérdezéseket, és ezt egyszerűen csak be kell kötni a Listing Gridbe. De, nem csak itt lehet felhasználni. Nézzük sorba:
 
 ### Felhasználási módok
